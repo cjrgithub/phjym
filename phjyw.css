@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;}
+/*最外面的盒子*/
+ul li{
+	list-style-type:none;
+	}
+.father{
+	width:100%px;
+	height:auto;
+	padding:0px;
+	}
+/*第一行大盒子*/
+.father .box_1{
+	width:1000px;
+	height:110px;
+	margin:0px auto;
+	padding:0px;
+	}
+/*第一行大盒子的小盒子*/
+.father .box_1_1{
+	width:205px;
+	height:70px;
+	margin-top:25px;
+	float:left;
+	}
+/*第一行大盒子的小盒子的小盒子*/
+.father .box1_1 a{
+	wither:203px;
+	height:12.2833px;
+	}
+/*第一行大盒子的小盒子2*/
+.father .box_1_2{
+	width:785px;
+	height:100px;
+	float:right;
+	}
+/*第一行大盒子的小盒子2的p标签*/
+.father .box_1_2 .box_1_2_1{
+	width:785px;
+	height:30px;
+	}
+/*第一行大盒子的小盒子2的p标签*/
+.father .box_1_2 .box_1_2_1 a{
+	text-decoration:none;
+	margin-left:4px;
+	position:relative;
+	left:68%;
+	font-size:12px;
+	}
+/*第一行大盒子的小盒子2的ul标签*/
+.father .box_1 .box_1_2_2{
+	width:519px;
+	height:61px;
+	margin-left:20px;
+	padding:0px;
+	padding-let:1px;
+	padding-top:1px;
+	}
+/*第一行大盒子的小盒子2的p标签*/
+.father #a1{
+	width:519px;
+	height:25px;
+	margin-top:5px;
+	padding-bottom:5px;
+	color:#0066AE;
+	}
+/*第一行大盒子的小盒子2的p标签里的a标签*/
+a{
+	text-decoration:none;
+	}
+/*第一行大盒子的小盒子2的form标签*/
+#form1{
+	width:497px;
+	height:36px;
+	border:#D1DBE7 1px solid;
+	padding-left:20px;
+	margin-left:0px;
+	}
+/*第一行大盒子的小盒子2的input标签*/
+#input1{
+	width:390px;
+	height:25px;
+	border:#D1DBE7 1px; solid;	
+	padding:1px;
+	margin:5px;
+	float:left;
+	}
+/*第一行大盒子的小盒子2的input标签*/
+#input2{
+	width:95px;
+	height:36px;
+	padding:0px;
+	margin:0px;
+	}
+/*第二行大盒子*/
+.father .box_2{
+	width:100%px;
+	height:380x;
+	background-color:#3C94ED;
+	}
+/*第二行大盒子的小盒子*/
+.father .box_2_1{
+	width:1000px;
+	height:38px;
+	margin:0px auto;
+	padding:0px;
+	background-color:#3C94ED;
+	}
+/*第二行大盒子小盒子的ul标签*/
+.box_2_1 ul{
+	width:1000px;
+	height:38px;
+	margin:0px auto;
+	padding:0px;
+	text-decoration:none;
+	background:url(%E7%B4%A0%E6%9D%90/mubg.jpg)100% 100% no-repeat;
+	}
+/*第二行大盒子小盒子的ul标签的li标签*/
+.father .box_2_1 ul li{
+	float:left;
+	padding:0px 10px;
+	width:auto;
+	line-height:37.5px;
+	background:url(%E7%B4%A0%E6%9D%90/mujg.jpg)0% 50% no-repeat;
+	}
+/*第二行大盒子小盒子的ul标签的li标签的a标签*/
+.father .box_2_1 ul li a{
+	color:#FFF;
+	font-size:14px;
+	}
+/*第二行大盒子小盒子的ul标签的li标签的a标签*/
+.father .box_2_1 ul li a:hover{
+	color:#000;
+	}
+/*第二行大盒子小盒子的ul标签的li标签*/
+.father .box_2_1 ul .back{
+	background:url(%E7%B4%A0%E6%9D%90/mubg.jpg)0% 100% no-repeat;
+	}
+/*第三行大盒子*/
+.father .box_3{
+	width:1000px;
+	height:1865.2px;
+	margin:5px auto;
+	}
+/*第三行大盒子的小盒子1*/
+.father .box_3 .box_3_1{
+	width:960px;
+	padding:5px 0px;
+	margin: 0 auto;
+	}
+/*第三行大盒子的小盒子2*/
+.father .box_3 .box_3_2{
+	width:960px;
+	height:90px;
+	padding:5px 0px;
+	margin: 0 auto;
+	}
+/*第三行大盒子的小盒子3*/
+.father .box_3_3{
+	padding-top:5px;
+	padding-bottom:20px;
+	height:1623.8px;
+	width:1000px;
+	}
+/*第三行大盒子的小盒子3的小盒子*/
+.father .box_3_3_1{
+	height:1390px;
+	width:960px;
+	padding:0px;
+	margin:0px auto;
+	}
+/*第三行大盒子的小盒子3的小盒子*/
+.box_3 .box_3_3 .box_3_3_1 h2{
+	width:960px;
+	height:40px;
+	padding:0px 15px;
+	margin-bottom:10px;
+	line-height:40px;
+	font-size:18px;
+	}
+.box_3 .box_3_3 .box_3_3_1 h2 span{
+	float: right;
+	font-size: 12px;
+	line-height: 44px;
+	margin-right: 40px;
+	}
+.box_3 .box_3_3 .box_3_3_1 h2 span a:hover{
+	color:#F00;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签*/
+.box_3 ul{
+	width:1000px;
+	padding-left:2px;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签的li*/
+.box_3 ul li{
+	width:128px;
+	height:215px;
+	padding-right:38px;
+	float:left;
+	text-align: center;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签的a标签*/
+.box_3 .box_3_3 .box_3_3_1 .img{
+	padding: 2px;
+	height: 150px;
+	width: 120px;
+	border: 1px solid #CCC;
+	display: block;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签的a标签*/
+.box_3 .box_3_3 .box_3_3_1 .img:hover{
+	border:#F00 1px solid;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签的strong标签*/
+.box_3 .box_3_3 .box_3_3_1 strong{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 126px;
+    overflow: hidden;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签的a标签*/
+.box_3 .box_3_3 .box_3_3_1 a{
+	height:30px;
+	}
+/*第三行大盒子的小盒子3的小盒子的ul标签的span标签*/
+span{
+	color: #000;
+	display: block;
+	line-height: 100%;
+	font-size: 12px;
+	}
+/*第三行大盒子的小盒子3的小盒子的小盒子*/
+.box_3_3_1_1{
+	clear:both;
+	}
+/*第三行大盒子的小盒子3的小盒子的小盒子的h2的span标签*/
+.box_3 .box_3_3 .box_3_3_1_1 h2 span{
+	float: right;
+	font-size: 12px;
+	line-height: 44px;
+	margin-right: 40px;
+	}
+/*第三行大盒子的小盒子3的小盒子的小盒子的h2的span标签鼠标悬停*/
+.box_3 .box_3_3 .box_3_3_1_1 h2 span a:hover{
+	color:#F00;
+	}
+/*第三行大盒子的小盒子3的小盒子2*/
+.box_3_3_2{
+	width:960px;
+	padding:5px 0px;
+	height:90px;
+	clear:both;
+	margin:0px auto;
+	}
+/*第三行大盒子的小盒子3的小盒子3*/
+.box_3_3_3{
+	background:#f3f3f3;
+	width:960px;
+	height:121.8px;
+	border:#999 1px solid;
+	margin:10px auto 0px;
+	}
+/*第三行大盒子的小盒子3的小盒子3的p标签*/
+.box_3_3_3 p{
+	width:950px;
+	height:32px;
+	line-height:32px;
+	padding-left:23px;
+	margin:14px 0px 5px 0px;
+	font-size:14px;
+	font-weight:bold;
+	color:#737373;
+	}
+/*第三行大盒子的小盒子3的小盒子3的小盒子*/
+.box_3_3_3_1{
+	padding-left:23px;
+	height:auto;
+	font-size:12px;
+	line-height: 20px;
+	width:910px;
+	height:64.8px;
+	}
+/*第三行大盒子的小盒子3的小盒子3的小盒子的a标签*/
+.box_3_3_3_1 a{
+	color: #646464;
+    padding: 4px 3px;
+	}
+/*第三行大盒子的小盒子3的小盒子3的小盒子的a标签悬停*/
+.box_3_3_3_1 a:hover{
+	color:#F00;
+	}
+#div1{
+	width:1000px;
+	border-top: 3px #2C6DD5 solid;
+	}
+#div2{
+	background-image: url(../images/bbg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666;
+	line-height:20px;
+	font-size:12px;
+	}
+#div2 a{
+	color: #666;
+	}
